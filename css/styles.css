@@ -11,3 +11,15 @@ h1{
    /* left: 100px;
    top:100px; */
 }
+@media (max-width: 768px) {
+    body {
+      display: none;
+    }
+  }
+
+  /* Hide content on Mobile */
+  @media (max-width: 576px) {
+    body {
+      display: none;
+    }
+  }
